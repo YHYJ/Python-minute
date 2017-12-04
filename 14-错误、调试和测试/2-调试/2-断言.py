@@ -10,9 +10,7 @@ def foo(s):
     print(10/n)
     # return 10 / n
 
-def main():
-    foo('0')
-
-main()
+if __name__=="__main__":
+    foo(0)
 '''断言失败assert语句本身会抛出AssertionError，并跟着assert语句后的错误提示：n is zero'''
 '''启动Py解释器时可以用-O参数关闭assert'''
