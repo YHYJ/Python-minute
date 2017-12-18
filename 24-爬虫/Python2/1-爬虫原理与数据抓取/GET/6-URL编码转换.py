@@ -35,7 +35,7 @@ def search(wd):
 
     wd = urllib.unquote(wd)
     file_name = "/home/yj/Documents/Project/Python/Python-minute/" \
-                "24-爬虫/Python2/1-爬虫原理与数据抓取/data/html/" \
+                "24-爬虫/Python2/1-爬虫原理与数据抓取/GET/data/html/" \
                 "6_百度搜索“{}”.html".format(wd)
     with open(file_name, mode="w") as f:
         f.write(html)
