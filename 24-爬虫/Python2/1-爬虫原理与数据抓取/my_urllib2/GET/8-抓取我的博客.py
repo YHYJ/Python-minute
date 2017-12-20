@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from spider import spider
+from plugs.spider import spider
 
 
 def bdtb_spider():

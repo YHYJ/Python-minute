@@ -8,7 +8,7 @@ ajax请求一般返回的是JSON文件，只要对ajax请求地址进行POST或G
 
 import urllib
 
-from spider import spider
+from plugs.spider import spider
 
 
 def movie_douban_spider():

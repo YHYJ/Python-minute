@@ -9,7 +9,7 @@ def save_file(html, file_name):
     :return:
     """
     full_name = "/home/yj/Documents/Project/Python/Python-minute/" \
-                "24-爬虫/Python2/1-爬虫原理与数据抓取/GET/data/html/" \
+                "24-爬虫/Python2/1-爬虫原理与数据抓取/my_urllib2/data/html/" \
                 + file_name
 
     print "正在写入：<{}>".format(file_name)
