@@ -1,26 +1,21 @@
 # -*- coding: utf-8 -*-
 
-"""http://www.neihan8.com/article/list_5_1.html"""
+"""'http://www.neihan8.com/article/list_5_{}.html'.format(page_num)"""
+
 import re
 
-from plugs.Save import SaveData
-from plugs.Spider import Spider
-from plugs.DataTreat import DataTreat
+from plugs_two import print_info
+from plugs_two.Spider import Spider
+from plugs_two.DataTreat import DataTreat
+from plugs_two.Save import SaveData
 
 
 if __name__ == '__main__':
     """抓取数据"""
-    de_code = raw_input("网页原始编码：")
-    en_code = raw_input("期望编码(utf-8)：")
-    a_page = int(raw_input("起始页码："))
-    e_page = int(raw_input("结束页码："))
-    filename = raw_input("文件名：")
-    file_type = raw_input("文件类型(None)：")
-    file_dir = raw_input("存储路径(./data/html/)：")
+    de_code, en_code, a_page, e_page, filename, file_type, file_dir = print_info()
     raw_input("<INFO> 检查代码，回车执行")
     for page in range(a_page, e_page + 1):
         url = "http://www.neihan8.com/article/list_5_{}.html".format(page)
-        print("正在抓取：{}".format(url))
         spider = Spider(url, de_code)
         data = spider.load_page()
 

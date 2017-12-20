@@ -10,7 +10,7 @@ from conf.User_Agent_list import USER_AGENT_LIST
 
 class Spider:
     """爬虫类"""
-    def __init__(self, url, de_code, en_code="utf-8"):
+    def __init__(self, url, de_code="utf-8", en_code="utf-8"):
         """
         :param url: 要抓取的URL
         :param de_code: 网页原始编码
@@ -27,5 +27,6 @@ class Spider:
         爬虫主体
         :return:
         """
+        print("正在抓取：{}".format(self.url))
         response = requests.get(self.url, headers=self.headers)
         return response.content.decode(self.de_code).encode(self.en_code)

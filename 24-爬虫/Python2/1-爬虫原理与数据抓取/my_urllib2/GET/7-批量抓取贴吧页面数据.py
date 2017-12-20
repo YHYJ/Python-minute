@@ -2,7 +2,7 @@
 
 import urllib
 
-from plugs.spider import spider
+from plugs_one.spider import spider
 
 
 def bdtb_spider():
