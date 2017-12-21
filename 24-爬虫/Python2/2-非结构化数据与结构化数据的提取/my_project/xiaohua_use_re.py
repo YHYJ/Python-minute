@@ -4,20 +4,26 @@
 
 import re
 
-from plugs_two import print_info
+from plugs_two import xiaohua_info
 from plugs_two.Spider import Spider
 from plugs_two.DataTreat import DataTreat
 from plugs_two.Save import SaveData
 
 
-if __name__ == '__main__':
+def xh_spider():
     """抓取数据"""
-    de_code, en_code, a_page, e_page, filename, file_type, file_dir = print_info()
+    param = xiaohua_info()
+    de_code = param["de_code"]
+    a_page = param["a_page"]
+    e_page = param["e_page"]
+    filename = param["filename"]
+
     raw_input("<INFO> 检查代码，回车执行")
+
     for page in range(a_page, e_page + 1):
         url = "http://www.neihan8.com/article/list_5_{}.html".format(page)
-        spider = Spider(url, de_code)
-        data = spider.load_page()
+        spider = Spider(de_code)
+        data = spider.send_request(url)
 
         """数据处理"""
         pattern = re.compile(r'<div class="f18 mb20">(.*?)</div>',
@@ -29,6 +35,7 @@ if __name__ == '__main__':
             \s 表示英文的空白字符 \n
             　:表示 \u3000 全角空格
         '''
+
         data_tread = DataTreat(data, pattern, pattern_content)  # 数据处理类对象
 
         print("<INFO> 过滤数据ing...")
@@ -43,4 +50,8 @@ if __name__ == '__main__':
         """存储数据"""
         full_file_name = "{}_{}".format(filename, page)
         save = SaveData(no_saved_data, full_file_name)
-        save.save_to_file()
+        save.save_in_file()
+
+
+if __name__ == '__main__':
+    xh_spider()

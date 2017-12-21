@@ -2,6 +2,7 @@
 
 
 class DataTreat:
+    """正则数据处理"""
     def __init__(self, data, pattern, pattern_content):
         self.data = data    # 参数传进来的待处理数据
         self.pattern = pattern  # 模糊匹配数据的 Pattern 对象
