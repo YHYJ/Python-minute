@@ -4,7 +4,9 @@
 """要启动大量的子进程可以使用进程池，通过Pool类"""
 
 import multiprocessing
-import time, random, os
+import time
+import random
+import os
 
 
 """如果要启动大量的子进程"""
@@ -18,6 +20,7 @@ def long_time_task(name):
     end = time.time()
     print("任务 %s 运行了 %.2f 秒." % (name, (end-start)))
     # open('a' + str(name), 'w').write(str(name))
+
 
 if __name__ == '__main__':
     print("父进程 %s." % os.getpid())

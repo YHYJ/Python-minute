@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-"""多线程 dummy"""
+"""多线程 dummy线程池"""
 
 import random
 import requests
 
 from queue import Queue
 from bs4 import BeautifulSoup
-from multiprocessing.dummy import Pool  # 多进程模块里的多线程
+from multiprocessing.dummy import Pool
 
 from conf.User_Agent_list import USER_AGENT_LIST
 
