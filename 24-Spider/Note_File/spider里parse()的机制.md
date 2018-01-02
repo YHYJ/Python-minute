@@ -27,7 +27,7 @@ def parse(self, response):
 
 
 
-1. ①使用yield返回解析结果，所以parse()类似一个生成器，scrapy引擎逐个获取parse()方法中生成的结果并判断其类型
+1. ①使用yield返回解析结果，所以parse()是一个生成器函数，scrapy引擎逐个获取parse()方法中生成的结果并判断其类型
 
    > 如果是request则加入抓取队列，如果是item则交给pipeline进行处理
    >

@@ -15,7 +15,7 @@ def fibonacci_series(max):
         yield b
         a, b = b, a+b     # 生成器实际上定义算法，可以从第一个元素开始推算出后续任意元素
         n += 1
-    return '没了'
+    return None
 
 fib = fibonacci_series(6)
     # fib.close()

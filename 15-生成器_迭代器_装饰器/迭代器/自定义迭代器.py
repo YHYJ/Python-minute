@@ -28,7 +28,7 @@ class MyIterator(object):
     """自定义可迭代对象MyList的迭代器"""
     def __init__(self, mylist):
         self.mylist = mylist
-        self.current = 0    # 记录当前访问的到位置
+        self.current = 0    # 记录当前访问到的位置
 
     def __next__(self):
         if self.current < len(self.mylist.items):
@@ -44,12 +44,14 @@ class MyIterator(object):
 
 if __name__ == "__main__":
     mylist = MyList()
-    mylist.add(1)
-    mylist.add(2)
-    mylist.add(3)
-    mylist.add(4)
-    mylist.add(5)
-    mylist.add(6)
+    myIterator = MyIterator(mylist)
+    mylist.add(u) for u in [1,2,3,4,5,6])
+    # mylist.add(2)
+    # mylist.add(3)
+    # mylist.add(4)
+    # mylist.add(5)
+    # mylist.add(6)
     print(mylist)
+    print(myIterator)
     for i in mylist:
         print(i)
