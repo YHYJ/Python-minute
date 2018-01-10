@@ -1,5 +1,5 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
 # -*- coding: utf-8 -*-
+
 
 """break和continue，其改变的仅仅是当前所处的最内层循环的运行
 如果外层还有循环，并不会因此略过或跳出

@@ -1,7 +1,7 @@
 #!/home/yj/.virtualenvs/py3.6.2/bin/python
 # -*- coding: utf-8 -*-
 
-"""项目名：计算BMI
+"""计算BMI
 要求：用户输入个人身高(m)、体重(kg)数据，根据BMI公式（体重/(身高)^2）计算用户的BMI指数，
 并根据指数给出用户的身材
 *   <18.5       过轻
@@ -11,9 +11,9 @@
 *   >32         严重肥胖
 """
 
-# 尝试创建一个类来解决
-h = eval(input('请输入你的身高(m)；'))
-w = eval(input('请输入你的体重(kg)：'))
+# ?尝试创建一个类来解决
+h = float(input('请输入你的身高(m)；'))
+w = float(input('请输入你的体重(kg)：'))
 bmi = w / (h * h)
 print('你的BMI指数是：%.1f' % bmi)
 if bmi < 18.5:

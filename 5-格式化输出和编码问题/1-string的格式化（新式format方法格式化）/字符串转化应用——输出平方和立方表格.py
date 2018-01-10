@@ -1,33 +1,32 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
 # -*- coding: utf-8 -*-
 
-#使用 repr() 输出指定数字的平方和立方表格
-for x in range(1,11):
-    print(repr(x).ljust(2),repr(x*x).ljust(3),repr(x*x*x).ljust(4))
+# 使用 repr() 输出指定数字的平方和立方表格
+for x in range(1, 11):
+    print(repr(x).ljust(2), repr(x*x).ljust(3), repr(x*x*x).ljust(4))
 # ljust() 左对齐函数，参数代表长度，对应的是 rjust() 右对齐函数和 center() 中心对齐行数
 
 
 print('*'*100)
 
-#方法 zfile() 使用 0 在字符串 左侧 填充到制定宽度，支持正负号
+# 方法 zfile() 使用 0 在字符串 左侧 填充到制定宽度，支持正负号
 print('12'.zfill(5))
-print('-3.14'.zfill(7)) #算上负号和小数点一共7位
-print('3.14159265358'.zfill(5)) #不会截断
-print('abc'.zfill(5))   #字符串不非要是数字字符串
-#如果输入的字符串太长以致超出对齐函数的参数，对齐函数并不会截断它而是原样返回，防止输出错误的值
+print('-3.14'.zfill(7))  # 算上负号和小数点一共7位
+print('3.14159265358'.zfill(5))  # 不会截断
+print('abc'.zfill(5))   # 字符串不非要是数字字符串
+# 如果输入的字符串太长以致超出对齐函数的参数，对齐函数并不会截断它而是原样返回，防止输出错误的值
 x = '123456789'
-print(x.ljust(5)[:5])   #切片并对齐，[:5]代表切片长度为0~5，ljust(5)代表占用长度为5
+print(x.ljust(5)[:5])   # 切片并对齐，[:5]代表切片长度为0~5，ljust(5)代表占用长度为5
 
 
 print('*'*100)
 
-for x in range(1,11):
-    print('{0:3d}{1:4d}{2:5d}'.format(x,x*x,x*x*x))
+for x in range(1, 11):
+    print('{0:3d}{1:4d}{2:5d}'.format(x, x*x, x*x*x))
 
-print('*'*30,'str.format() 的基本用法','*'*30)
-print('虎是{}不是{}'.format('猫科动物','犬科动物')) #将format的参数按顺序传递到{}
-print('{0}和{1}'.format('熊猫','Panda'))   #{}里的参数为数字是传递的数据的位置
-print('{1}和{0}'.format('熊猫','Panda'))
+print('*'*30, 'str.format() 的基本用法', '*'*30)
+print('虎是{}不是{}'.format('猫科动物', '犬科动物')) #将format的参数按顺序传递到{}
+print('{0}和{1}'.format('熊猫', 'Panda'))   #{}里的参数为数字是传递的数据的位置
+print('{1}和{0}'.format('熊猫', 'Panda'))
 print('这是{c}这是{o}'.format(c = '中国',o = '外国'))   #{}中的参数是字符串，它们的值在format中通过参数名指定
 
 import math
