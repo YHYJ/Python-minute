@@ -4,7 +4,7 @@
 """检查字符串中是否包含某个子串"""
 
 
-mystr = "hello world itcast and itcastcpp,it's"
+mystr = "hello world it's and me"
 
 # find()和rfind()
 print('*'*25, 'find()和rfind()', '*'*25)

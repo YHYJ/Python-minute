@@ -1,7 +1,9 @@
 #!/home/yj/.virtualenvs/py3.6.2/bin/python
 # -*- coding: utf-8 -*-
 
-import fibo,sys
+import fibo,sysa
+
+
 print(dir(fibo))    #查看自定义模块fibo里的方法
 print(dir(sys))     #查看模块sys里的方法
 a = [1,2]

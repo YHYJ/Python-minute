@@ -10,10 +10,14 @@ def f(a, l=[]):
     l.append(a)
     return l
 print(f(1))
+print(f(a=12, l=[123]))
 print(f(2))     # 每调用一次，l[]在原有元素后添加
 
 
 def f1(a, num_list=None):
+    """
+    不指定num_list类型的话，默认是list类型
+    """
     if num_list is None:
         num_list = []
     num_list.append(a)
