@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Py认为字符串间的空白是有意义的.

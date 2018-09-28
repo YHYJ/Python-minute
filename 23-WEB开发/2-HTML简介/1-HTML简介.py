@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """因为网页中不但包含文字，还有图片、视频、Flash小游戏

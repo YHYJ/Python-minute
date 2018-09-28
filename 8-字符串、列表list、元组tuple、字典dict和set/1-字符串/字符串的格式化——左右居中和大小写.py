@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """格式化字符串，使其对齐或者改变大小写"""

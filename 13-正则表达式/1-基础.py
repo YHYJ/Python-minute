@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """正则表达式用来匹配字符串

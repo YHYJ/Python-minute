@@ -1,4 +1,4 @@
-﻿#!/home/yj/.virtualenvs/py3.6.2/bin/python
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 #把bool加入到猜数字小游戏

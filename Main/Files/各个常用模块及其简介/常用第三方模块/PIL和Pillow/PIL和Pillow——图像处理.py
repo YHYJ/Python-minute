@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """PIL：Python Imaging Library，已经是Py平台事实上的图像处理标准库了

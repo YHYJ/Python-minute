@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """collections是Py内建的一个集合模块，提供了许多有用的集合类"""

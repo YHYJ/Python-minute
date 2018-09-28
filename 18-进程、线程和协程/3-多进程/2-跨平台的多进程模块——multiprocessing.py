@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """multiprocessing模块是Py中跨平台版本的多进程模块"""

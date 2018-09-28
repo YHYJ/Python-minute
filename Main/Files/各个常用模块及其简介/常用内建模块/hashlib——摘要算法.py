@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Py的hashlib模块提供了常见的摘要算法，如MD5，SHA1等"""

@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """把变量从内存中变成可存储或传输的过程称为序列化，在Py中叫pickling

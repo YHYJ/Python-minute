@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """生成器(generator) —— 一边循环一边计算的算法机制，生成器是可迭代对象

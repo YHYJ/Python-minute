@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """操作文件和目录的函数一部分放在os模块中，一部分放在os.path模块中"""

@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 print('*'*25 + '当需要在列表中存储多个个体时，可以在列表中嵌套多个字典' + '*'*25)

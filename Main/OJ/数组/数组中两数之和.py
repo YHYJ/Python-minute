@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
 Date: 2018-03-13 15:14:18
 Last modified: 2018-03-13 15:14:18
-Author: 王斌 - yj1516268@outlook.com
+Author: YJ - yj1516268@outlook.com
 
 在一个整数数组中找到两个数使得他们的和等于一个给定的数target
 按顺序返回这两个数的下标，注意这里下标的范围是1到n，不是以0开头

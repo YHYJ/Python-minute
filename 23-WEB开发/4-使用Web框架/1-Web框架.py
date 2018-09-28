@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """一个Web App就是写一个WSGI的处理函数，针对每个HTTP请求进行响应

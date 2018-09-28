@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
 Date: 2018-03-16 00:07:35
 Last modified: 2018-03-16 00:07:35
-Author: 王斌 - yj1516268@outlook.com
+Author: YJ - yj1516268@outlook.com
 
 求n阶乘结果末尾的0的个数，如5! = 120， 0的个数为1
 """

@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py36/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """

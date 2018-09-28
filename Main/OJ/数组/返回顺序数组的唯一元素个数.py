@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
 Date: 2018-03-13 13:22:40
 Last modified: 2018-03-13 13:22:40
-Author: 王斌 - yj1516268@outlook.com
+Author: YJ - yj1516268@outlook.com
 
 题目：从一个有序数组中去除重复的数字，返回处理后的数组长度
 要求：不使用额外的数组，只能用常量

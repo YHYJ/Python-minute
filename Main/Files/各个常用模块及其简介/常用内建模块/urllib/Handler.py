@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """如果需要更复杂的控制，比如通过一个Proxy去访问网站，需要利用ProxyHandler来处理"""

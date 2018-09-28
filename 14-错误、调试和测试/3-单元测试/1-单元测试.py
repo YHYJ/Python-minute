@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """单元测试是用来对一个模块、一个函数或者一个类进行正确性检验的测试工作"""

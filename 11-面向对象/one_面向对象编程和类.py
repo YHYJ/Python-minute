@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """面向对象编程——编写表示现实世界中的事物和情景的类，并基于这些类来创建对象

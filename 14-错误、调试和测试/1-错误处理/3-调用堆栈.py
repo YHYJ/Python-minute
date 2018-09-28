@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """错误没有被捕获就会一直往上抛，最终被Py解释器捕获，打印错误堆栈和信息，然后程序退出"""

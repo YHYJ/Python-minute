@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """使用模块collections中的OrderedDict类创建字典并记录其中的键—值对的添加顺序.

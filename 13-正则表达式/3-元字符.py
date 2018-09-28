@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """前三篇的特殊符号如【\b、\d、.、\S、*】等叫做元字符"""

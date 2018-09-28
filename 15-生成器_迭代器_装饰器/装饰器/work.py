@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """装饰器可以增强函数的功能，定义起来虽然有点复杂，但使用起来非常灵活和方便"""

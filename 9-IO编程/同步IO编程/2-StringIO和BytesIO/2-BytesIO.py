@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """StringIO操作的只能是str，如果要操作二进制数据，就需要使用BytesIO"""

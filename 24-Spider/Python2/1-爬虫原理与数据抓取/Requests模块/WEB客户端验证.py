@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """如果是Web客户端验证，需要添加 auth = (账户名, 密码)"""

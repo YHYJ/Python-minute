@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # 任意给定一个最高值num，,求1+2+3+……+num的值

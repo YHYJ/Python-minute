@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """如果不捕获错误，自然可以让Py解释器打印出错误堆栈，但程序也被结束了

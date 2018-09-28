@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """urllib 和 urllib2 都是接受URL请求的相关模块，但是提供了不同的功能

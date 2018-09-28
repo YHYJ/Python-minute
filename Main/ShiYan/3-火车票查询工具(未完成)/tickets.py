@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 用到的库：
     docopt  Py3命令行参数解析

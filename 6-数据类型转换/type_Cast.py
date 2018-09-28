@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 #Python在定义一个变量时不需要对变量的数据类型进行限定，变量会根据赋给它的值自动决定它的类型，也可以在程序中改变它的值和数据类型：

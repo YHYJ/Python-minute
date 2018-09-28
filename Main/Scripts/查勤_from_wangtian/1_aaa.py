@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 
 name_dict = dict.fromkeys(open('./name/names').readlines(), 0)

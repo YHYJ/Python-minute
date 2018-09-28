@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """Beautiful Soup将复杂HTML文档转换成一个复杂的树形结构

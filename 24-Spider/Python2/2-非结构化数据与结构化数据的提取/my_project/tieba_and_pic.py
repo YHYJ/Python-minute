@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """用XPath做一个爬虫，尝试爬取某个贴吧里的所有帖子

@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """只需要import pdb，然后在可能出错的地方放一个pdb.set_trace()，就可以设置一个断点"""

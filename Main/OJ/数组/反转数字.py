@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
 Date: 2018-03-16 00:25:07
 Last modified: 2018-03-16 00:25:07
-Author: 王斌 - yj1516268@outlook.com
+Author: YJ - yj1516268@outlook.com
 
 输入123，输出321；输入-123，输出-321；输入103200，输出2301
 """

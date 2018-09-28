@@ -1,4 +1,4 @@
-﻿#!/home/yj/.virtualenvs/py3.6.2/bin/python
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """字典(dict)是Py中的基本类型，在其他语言中也称为map

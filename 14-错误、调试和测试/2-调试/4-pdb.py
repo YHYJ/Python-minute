@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """第4种方式是启动Py的调试器pdb，让程序以单步方式运行，可以随时查看运行状态"""

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
 """有些Web服务器（包括HTTP/FTP等）的有些页面并不想提供公共访问权限，或者某些页面不希望公开

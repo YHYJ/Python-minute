@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """对于使用ajax动态加载的内容，无法直接对网页URL进行获取

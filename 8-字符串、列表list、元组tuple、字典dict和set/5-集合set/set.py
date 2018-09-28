@@ -1,4 +1,4 @@
-﻿#!/home/yj/.virtualenvs/py3.6.2/bin/python
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """set和dict类似，也是 一组key（键）的集合但不存储value（值）.

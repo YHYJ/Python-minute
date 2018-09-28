@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.6.2/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """特别指出的是，正则匹配默认是贪婪匹配，也就是匹配尽可能多的字符"""

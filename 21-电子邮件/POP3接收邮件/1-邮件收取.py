@@ -1,4 +1,4 @@
-#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """收取邮件就是编写一个MUA作为客户端，从MDA把邮件获取到用户的电脑或者手机上

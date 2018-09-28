@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """在1-urlopen.py中，urlopen()的参数就是一个URL地址

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """'http://www.neihan8.com/article/list_5_{}.html'.format(page_num)"""

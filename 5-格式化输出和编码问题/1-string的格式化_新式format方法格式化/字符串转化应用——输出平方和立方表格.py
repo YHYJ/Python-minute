@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 
 # 使用 repr() 输出指定数字的平方和立方表格
 for x in range(1, 11):

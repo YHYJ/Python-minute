@@ -1,4 +1,4 @@
-﻿#!/home/yj/.virtualenvs/py3.5.3/bin/python3.5
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 from random import choice   #choice——random的一个方法，作用是从一个list中随机挑选一个元素。也可以用randint来随机
