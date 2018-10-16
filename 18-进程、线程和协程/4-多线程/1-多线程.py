@@ -32,9 +32,11 @@ def loop():
 
 print("主线程 %s 正在运行..." % threading.current_thread().name)
 t = threading.Thread(target=loop, name='LoopThread')
+#根据输出可知有两个线程：主线程MainThread和子线程LoopThread
 t.start()
-t.join()
+t.join()        # 阻塞直至当前调用join的线程结束。在此，不加join的话会在主线程结束的时候就执行下面的print
 print("主线程 %s 结束." % threading.current_thread().name)
+
 '''任何进程默认就会启动一个线程，该线程称为主线程，主线程又可以启动新的线程
 Py的threading模块有个current_thread()函数，它永远返回当前线程的实例
 主线程实例的名字叫MainThread，子线程的名字在创建时指定为LoopThread
