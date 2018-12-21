@@ -8,8 +8,9 @@ Created Date: 2018-12-21 01:33:20
 Redis pub/sub mode.
 """
 
-import redis
 import time
+
+import redis
 
 
 def main():

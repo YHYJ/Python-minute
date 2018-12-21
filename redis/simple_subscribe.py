@@ -25,22 +25,18 @@ def main():
     for im in ps.listen():
         # im = {'type': 'pmessage', 'pattern': b'<Channel Mode>', 'channel': b'<Channel>', 'data': b'<message>'}
         if im['type'] == 'message':
-            print(
-                'Type <{}> channel <{}> message -- {}.'.format(
-                    im['type'],
-                    im['channel'].decode('utf-8'),
-                    im['data'].decode('utf-8'),
-                )
-            )
+            print('Type <{}> channel <{}> message -- {}.'.format(
+                im['type'],
+                im['channel'].decode('utf-8'),
+                im['data'].decode('utf-8'),
+            ))
         elif im['type'] == 'pmessage':
-            print(
-                'Type <{}> channel <{}/{}> message -- {}.'.format(
-                    im['type'],
-                    im['pattern'].decode('utf-8'),
-                    im['channel'].decode('utf-8'),
-                    im['data'].decode('utf-8'),
-                )
-            )
+            print('Type <{}> channel <{}/{}> message -- {}.'.format(
+                im['type'],
+                im['pattern'].decode('utf-8'),
+                im['channel'].decode('utf-8'),
+                im['data'].decode('utf-8'),
+            ))
 
 
 if __name__ == "__main__":
