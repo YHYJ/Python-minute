@@ -1,0 +1,3 @@
+[submodule "book/example-code"]
+	path = book/example-code
+	url = https://github.com/fluentpython/example-code
