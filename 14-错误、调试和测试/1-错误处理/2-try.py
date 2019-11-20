@@ -6,9 +6,9 @@
 try:        # 程序在try内部执行某行代码引发异常时直接跳过try中剩下的代码
     print('try...')
     r = 10 / 2
-    print('result:',r)
+    print('result:', r)
 except ValueError as error:     # except捕获Error
-    print('无效字符:',error)
+    print('无效字符:', error)
 except ZeroDivisionError as error:
     print('0不能做除数:', error)
 else:                           # try成功运行自动执行else语句
@@ -23,19 +23,24 @@ finally:                        # 一定执行finally语句，但可以没有fin
 """try...except捕获错误可以跨越多层调用
 比如函数main()调用bar()，bar()调用foo()，结果foo()出错了"""
 # 只要main()捕获到了错误，就可以处理：
+
+
 def foo(s):
     return 10 / int(s)
+
 
 def bar(s):
     return foo(s) * 2
 
+
 def main():
     try:
         bar('0')
-    except Exception as error:	# except捕获Error，但不能捕获异常信息，Exception能
-        print('Error:',error)
+    except Exception as error:  # except捕获Error，但不能捕获异常信息，Exception能
+        print('Error:', error)
     finally:
         print('end'.upper())
+
 
 main()
 '''也就是说只要在合适的层次捕获错误就可以了。这样就大大减少了写try...except...finally的麻烦'''

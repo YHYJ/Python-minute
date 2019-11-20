@@ -14,20 +14,22 @@ import re
 
 # 版本一：
 email = input('请输入邮箱：')
-if re.match(r'^([A-Za-z0-9]+)(@)([a-z0-9A-Z]+)(.)([a-zA-Z]+)$',email):
+if re.match(r'^([A-Za-z0-9]+)(@)([a-z0-9A-Z]+)(.)([a-zA-Z]+)$', email):
     print(email.lower())
 else:
     print('非法邮箱！！')
 
 
 # 版本二：
-import re
 
 email = input('请输入署名邮箱:')
-reemail = re.compile(r'^[<|{]([a-z\sA-Z]+)[}|>]\s([a-zA-Z.0-9_]+)(@)([0-9a-zA-Z]+)(.)([a-zA-Z]+)$')
+reemail = re.compile(
+    (r'^[<|{]([a-z\sA-Z]+)[}|>]\s([a-zA-Z.0-9_]+)'
+     '(@)([0-9a-zA-Z]+)(.)([a-zA-Z]+)$')
+)
 if reemail.match(email):
     print(reemail.match(email).groups())
-    print('邮箱所有者：',reemail.match(email).group(1).title())
+    print('邮箱所有者：', reemail.match(email).group(1).title())
     print(reemail.match(email).group(2)
           + reemail.match(email).group(3)
           + reemail.match(email).group(4)

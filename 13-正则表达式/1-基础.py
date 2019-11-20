@@ -16,25 +16,25 @@ text = "His, I am Shirley hislton. I am wife."
 print("\bhi")   # [hi]
 print("\\bhi")  # [\bhi]    \\b，转义为输出\
 print(r"\bhi")  # [\bhi]    r"\b"，不进行转义输出\bhi
-print(r"\\bhi") # [\\bhi]   r"\\bhi"，不进行转义输出\\bhi
+print(r"\\bhi")  # [\\bhi]   r"\\bhi"，不进行转义输出\\bhi
 
 
-#1:最简单的正则表达式，完全/精确匹配
-m = re.findall(r"hi",text)
+# 1:最简单的正则表达式，完全/精确匹配
+m = re.findall(r"hi", text)
 if m:
     print(m)
 else:
     print("nothing")
 
-#2:找到独立的"Hi",忽略包含Hi的单词，用 \b……\b
-m = re.findall(r"\b[Hh]is\b",text)  # \b 代表它所占据的位置是空格、标点、换行……
+# 2:找到独立的"Hi",忽略包含Hi的单词，用 \b……\b
+m = re.findall(r"\b[Hh]is\b", text)  # \b 代表它所占据的位置是空格、标点、换行……
 if m:
     print(m)
 else:
     print("nothing")
 
-#单独匹配多个字符中的一个，用[]
-m = re.findall(r"[Hh]i",text)
+# 单独匹配多个字符中的一个，用[]
+m = re.findall(r"[Hh]i", text)
 if m:
     print(m)
 else:

@@ -22,7 +22,8 @@ print(vi_1)
 
 # "*"，表示前面的字符可以重复任意多次（包括0次），表示任意长度但最短为1———— +
 text = "I am Shirley Hilton. I am his wife"
-m = re.findall(r"I.*e",text)    #.和*搭配 “I.*e” 表示I开头，e结尾，中间任意长度的任意字符，*导致优先匹配最长的字符串，称为贪婪匹配
-print(m)    #匹配最长,贪婪匹配
-m = re.findall(r"I.*?e",text)   #.*和?搭配，限制优先匹配最短的字符串
-print(m)    #匹配最短，懒惰匹配
+# .和*搭配 “I.*e” 表示I开头，e结尾，中间任意长度的任意字符，*导致优先匹配最长的字符串，称为贪婪匹配
+m = re.findall(r"I.*e", text)
+print(m)  # 匹配最长,贪婪匹配
+m = re.findall(r"I.*?e", text)  # .*和?搭配，限制优先匹配最短的字符串
+print(m)  # 匹配最短，懒惰匹配

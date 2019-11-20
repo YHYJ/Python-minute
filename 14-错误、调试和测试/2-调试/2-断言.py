@@ -6,11 +6,12 @@
 
 def foo(s):
     n = int(s)
-    assert n != 0,'n is zero'   # 意思是：表达式n != 0应该是True，否则后面代码会出错
+    assert n != 0, 'n is zero'   # 意思是：表达式n != 0应该是True，否则后面代码会出错
     print(10/n)
     # return 10 / n
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     foo(0)
 '''断言失败assert语句本身会抛出AssertionError，并跟着assert语句后的错误提示：n is zero'''
 '''启动Py解释器时可以用-O参数关闭assert'''

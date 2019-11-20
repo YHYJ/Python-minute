@@ -4,7 +4,7 @@
 """把print()替换为logging是第3种方式"""
 # logging不会抛出错误，而且可以输出到文件：
 import logging
-logging.basicConfig(filename='logging.log',level=logging.INFO)
+logging.basicConfig(filename='logging.log', level=logging.INFO)
 
 s = '0'
 n = int(s)

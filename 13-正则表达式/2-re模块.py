@@ -7,7 +7,7 @@
 import re
 
 
-#re.findall(r"hi",text)
+# re.findall(r"hi",text)
 '''re是python里的正则表达式模块。
 findall是其中一个方法，用来按照提供的正则表达式，去匹配文本中的所有符合条件的字符串。
 返回结果是一个包含所有匹配结果的list'''
@@ -22,11 +22,11 @@ s_1 = r'ABC\-001'   # Py的字符串
 
 # 判断正则表达式是否匹配：
 '''match()方法判断是否匹配，匹配成功返回一个Match对象，否则返回None'''
-print(re.match(r'^\d{3}\-\d{3,8}$','101-123456'))
+print(re.match(r'^\d{3}\-\d{3,8}$', '101-123456'))
 
 # 常见的判断方法：
 string = input('用户输入的字符串：')
-if re.match(r'正则表达式',string):
+if re.match(r'正则表达式', string):
     print('yes')
 else:
     print('no')

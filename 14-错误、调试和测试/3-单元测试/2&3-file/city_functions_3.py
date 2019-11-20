@@ -7,9 +7,11 @@
 个函数返回一个格式为 City, Country 的字符串，如 Santiago, Chile.
 """
 
-def city_function(city,country,population = ''):
+
+def city_function(city, country, population=''):
     if population:
-        city_country = city + ',' + country + ' - population ' + str(population)
+        city_country = city + ',' + country + \
+            ' - population ' + str(population)
     else:
         city_country = city + ',' + country
     return city_country.title()

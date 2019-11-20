@@ -9,13 +9,17 @@
 
 """第一种方法简单直接粗暴有效"""
 # 用print()把可能有问题的变量打印出来看看：
+
+
 def foo(s):
     n = int(s)
     print(">>> n = %d" % n)
     return 10 / n
 
+
 def main():
     foo('0')
+
 
 main()
 '''用print()最大的坏处是将来还得删掉它，于是有了其他方法'''
