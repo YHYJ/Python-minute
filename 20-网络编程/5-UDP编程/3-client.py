@@ -18,6 +18,6 @@ while True:
     else:
         break
 for data in datas:
-    s.sendto(data, ('127.0.0.1', 9986))  # 发送数据
+    s.sendto(data, ('127.0.0.1', 9986))  # 发送数据：因为server绑定的是0.0.0.0，所以发送到127.0.0.1也可以
     print(s.recv(1024).decode('utf-8'))  # 接收数据
 s.close()

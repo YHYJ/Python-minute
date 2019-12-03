@@ -8,7 +8,7 @@ import socket
 
 # 服务器首先需要绑定端口：
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # SOCK_DGRAM指定使用UDP
-s.bind(('127.0.0.1', 9986))  # 绑定端口
+s.bind(('0.0.0.0', 9986))  # 绑定端口
 '''不需要调用listen()方法监听，直接接收来自任何客户端的数据'''
 
 print('[info]:已建立UDP连接...')
